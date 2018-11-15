@@ -1,7 +1,7 @@
 const passport = require('passport');
 const { onSuccess, onFail } = require('../utils/formatResponse');
 
-const redirectUser = (req, res) => res.redirect(`${process.env.HOST}`);
+const redirectUser = (req, res) => res.redirect('/');
 
 const sendUserInfo = (req, res) => {
   // if user logged in oauth

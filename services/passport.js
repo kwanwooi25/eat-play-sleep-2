@@ -1,4 +1,5 @@
 /** Passport */
+const passport = require('passport');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const FacebookStrategy = require('passport-facebook').Strategy;
 const KakaoStrategy = require('passport-kakao').Strategy;
@@ -70,23 +71,20 @@ const findOrCreateUser = (accessToken, refreshToken, profile, done) => {
     })
     .catch(error => done(null, false, error));;
 }
+  
+passport.serializeUser((user, done) => {
+  done(null, user.id);
+});
 
-module.exports = (app, passport) => {
-  app.use(passport.initialize());
-  app.use(passport.session());
-  
-  passport.serializeUser((user, done) => {
-    done(null, user.id);
-  });
-  
-  passport.deserializeUser((id, done) => {
-    db('users')
-      .where('id', '=', id)
-      .then(user => done(null, user[0]));
-  });
-  
-  passport.use(new GoogleStrategy(googleConfig, findOrCreateUser));
-  passport.use(new FacebookStrategy(facebookConfig, findOrCreateUser));
-  passport.use(new KakaoStrategy(kakaoConfig, findOrCreateUser));
-  passport.use(new NaverStrategy(naverConfig, findOrCreateUser));
-}
+passport.deserializeUser((id, done) => {
+  db('users')
+    .where('id', '=', id)
+    .then(user => done(null, user[0]));
+});
+
+passport.use(new GoogleStrategy(googleConfig, findOrCreateUser));
+passport.use(new FacebookStrategy(facebookConfig, findOrCreateUser));
+passport.use(new KakaoStrategy(kakaoConfig, findOrCreateUser));
+passport.use(new NaverStrategy(naverConfig, findOrCreateUser));
+
+module.exports = passport;

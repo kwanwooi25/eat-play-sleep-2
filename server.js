@@ -30,7 +30,9 @@ app.use(session({
   }
 }));
 // Passport
-require('./services/passport')(app, passport);
+app.use(passport.initialize());
+app.use(passport.session());
+require('./services/passport');
 
 /** Routes */
 // app.get('/', (req, res) => {
@@ -43,11 +45,11 @@ require('./routes/activity')(app);
 
 /** Frontend for production */
 if (process.env.NODE_ENV === 'production') {
-  app.use(express.static('client/build'));
+  app.use(express.static(path.resolve(__dirname, 'client', 'build')));
   app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
   });
 }
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => console.log(`Server is up on port ${PORT}`));
