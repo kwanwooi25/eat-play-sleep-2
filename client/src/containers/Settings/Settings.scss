@@ -1,0 +1,47 @@
+.settings {
+
+  &__baby-profile,
+  &__app-settings {
+    @extend %box;
+    margin: $space--sm;
+  }
+
+  &__app-settings {
+    padding: 0;
+
+    &__title {
+      padding: $space--md;
+    }
+
+    &__buttons {
+      @extend %flex-center-column;
+      width: 100%;
+
+      &__button {
+        @extend %flex-center-row;
+        @extend %button;
+        border-radius: 0;
+        border-top: 1px solid $color-primary--xxlight;
+        justify-content: space-between;
+        width: 100%;
+        
+        &__icon {
+          width: 1.5rem;
+          height: 1.5rem;
+
+          svg {
+            fill: $color-primary;
+          }
+        }
+      }
+    }
+  }
+}
+
+.display-activities-selector {
+  .custom-selector__options {
+    @extend %flex-center-row;
+    flex-wrap: wrap;
+    padding: $space--sm;
+  }
+}

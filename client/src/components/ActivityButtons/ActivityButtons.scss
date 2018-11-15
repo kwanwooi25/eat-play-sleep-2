@@ -1,0 +1,523 @@
+.activity-button.breast.two-sided { grid-area: button_breast }
+.activity-button.bottle { grid-area: button_bottle }
+.activity-button.pump.two-sided { grid-area: button_pump }
+.activity-button.babyfood { grid-area: button_babyfood }
+.activity-button.diaper { grid-area: button_diaper }
+.activity-button.sleep { grid-area: button_sleep }
+.activity-button.growth { grid-area: button_growth }
+
+.activity-buttons {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+
+  /*==============================
+    7 buttons
+    ==============================*/
+  &.breast.bottle.pump.babyfood.diaper.sleep.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      "button_breast button_breast button_bottle"
+      "button_pump button_pump button_babyfood"
+      "button_diaper button_sleep button_growth";
+  }
+
+
+  /*==============================
+    6 buttons
+    ==============================*/
+  &.breast.bottle.pump.babyfood.diaper.sleep {
+    grid-gap: $space--md;
+    grid-template-areas:
+      "button_breast button_breast button_breast button_breast button_bottle button_bottle"
+      "button_pump button_pump button_pump button_pump button_babyfood button_babyfood"
+      ". button_diaper button_diaper button_sleep button_sleep .";
+  }
+  &.breast.bottle.pump.babyfood.diaper.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      "button_breast button_breast button_breast button_breast button_bottle button_bottle"
+      "button_pump button_pump button_pump button_pump button_babyfood button_babyfood"
+      ". button_diaper button_diaper button_growth button_growth .";
+  }
+  &.breast.bottle.pump.babyfood.sleep.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      "button_breast button_breast button_breast button_breast button_bottle button_bottle"
+      "button_pump button_pump button_pump button_pump button_babyfood button_babyfood"
+      ". button_sleep button_sleep button_growth button_growth .";
+  }
+  &.breast.bottle.pump.diaper.sleep.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      "button_breast button_breast button_breast button_breast button_bottle button_bottle"
+      ". button_pump button_pump button_pump button_pump ."
+      "button_diaper button_diaper button_sleep button_sleep button_growth button_growth";
+  }
+  &.breast.bottle.babyfood.diaper.sleep.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_breast button_breast button_breast button_breast ."
+      ". button_bottle button_bottle button_babyfood button_babyfood ."
+      "button_diaper button_diaper button_sleep button_sleep button_growth button_growth";
+  }
+  &.breast.pump.babyfood.diaper.sleep.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_breast button_breast button_breast button_breast ."
+      "button_pump button_pump button_pump button_pump button_babyfood button_babyfood"
+      "button_diaper button_diaper button_sleep button_sleep button_growth button_growth";
+  }
+  &.bottle.pump.babyfood.diaper.sleep.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_pump button_pump button_pump button_pump ."
+      ". button_bottle button_bottle button_babyfood button_babyfood ."
+      "button_diaper button_diaper button_sleep button_sleep button_growth button_growth";
+  }
+
+
+  /*==============================
+    5 buttons
+    ==============================*/
+  &.breast.bottle.pump.babyfood.diaper {
+    grid-gap: $space--md;
+    grid-template-areas:
+      "button_breast button_breast button_breast button_breast button_bottle button_bottle"
+      ". button_pump button_pump button_pump button_pump ."
+      ". button_babyfood button_babyfood button_diaper button_diaper .";
+  }
+  &.breast.bottle.pump.babyfood.sleep {
+    grid-gap: $space--md;
+    grid-template-areas:
+      "button_breast button_breast button_breast button_breast button_bottle button_bottle"
+      ". button_pump button_pump button_pump button_pump ."
+      ". button_babyfood button_babyfood button_sleep button_sleep .";
+  }
+  &.breast.bottle.pump.babyfood.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      "button_breast button_breast button_breast button_breast button_bottle button_bottle"
+      ". button_pump button_pump button_pump button_pump ."
+      ". button_babyfood button_babyfood button_growth button_growth .";
+  }
+  &.breast.pump.babyfood.diaper.sleep {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_breast button_breast button_breast button_breast ."
+      ". button_pump button_pump button_pump button_pump ."
+      "button_babyfood button_babyfood button_diaper button_diaper button_sleep button_sleep";
+  }
+  &.breast.pump.babyfood.diaper.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_breast button_breast button_breast button_breast ."
+      ". button_pump button_pump button_pump button_pump ."
+      "button_babyfood button_babyfood button_diaper button_diaper button_growth button_growth";
+  }
+  &.breast.pump.babyfood.sleep.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_breast button_breast button_breast button_breast ."
+      ". button_pump button_pump button_pump button_pump ."
+      "button_babyfood button_babyfood button_sleep button_sleep button_growth button_growth";
+  }
+  &.breast.babyfood.diaper.sleep.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      "button_breast button_breast button_babyfood"
+      "button_diaper button_sleep button_growth";
+  }
+  &.bottle.pump.babyfood.diaper.sleep {
+    grid-gap: $space--md;
+    grid-template-areas:
+      "button_pump button_pump button_bottle"
+      "button_babyfood button_diaper button_sleep";
+  }
+  &.bottle.pump.babyfood.diaper.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      "button_pump button_pump button_bottle"
+      "button_babyfood button_diaper button_growth";
+  }
+  &.bottle.pump.babyfood.sleep.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      "button_pump button_pump button_bottle"
+      "button_babyfood button_sleep button_growth";
+  }
+  &.bottle.babyfood.diaper.sleep.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_bottle button_bottle button_babyfood button_babyfood ."
+      "button_diaper button_diaper button_sleep button_sleep button_growth button_growth";
+  }
+  &.pump.babyfood.diaper.sleep.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      "button_pump button_pump button_babyfood"
+      "button_diaper button_sleep button_growth";
+  }
+
+
+  /*==============================
+    4 buttons
+    ==============================*/
+  &.breast.bottle.pump.babyfood {
+    grid-gap: $space--md;
+    grid-template-areas:
+      "button_breast button_breast button_bottle"
+      "button_pump button_pump button_babyfood";
+  }
+  &.breast.bottle.pump.diaper {
+    grid-gap: $space--md;
+    grid-template-areas:
+      "button_breast button_breast button_bottle"
+      "button_pump button_pump button_diaper";
+  }
+  &.breast.bottle.pump.sleep {
+    grid-gap: $space--md;
+    grid-template-areas:
+      "button_breast button_breast button_bottle"
+      "button_pump button_pump button_sleep";
+  }
+  &.breast.bottle.pump.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      "button_breast button_breast button_bottle"
+      "button_pump button_pump button_growth";
+  }
+  &.breast.pump.babyfood.diaper {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_breast button_breast ."
+      ". button_pump button_pump ."
+      ". button_babyfood button_diaper .";
+  }
+  &.breast.pump.babyfood.sleep {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_breast button_breast ."
+      ". button_pump button_pump ."
+      ". button_babyfood button_sleep .";
+  }
+  &.breast.pump.babyfood.growth {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_breast button_breast ."
+      ". button_pump button_pump ."
+      ". button_babyfood button_growth .";
+  }
+  &.breast.pump.diaper.sleep {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_breast button_breast ."
+      ". button_pump button_pump ."
+      ". button_diaper button_sleep .";
+  }
+  &.breast.pump.diaper.growth {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_breast button_breast ."
+      ". button_pump button_pump ."
+      ". button_diaper button_growth .";
+  }
+  &.breast.pump.sleep.growth {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_breast button_breast ."
+      ". button_pump button_pump ."
+      ". button_sleep button_growth .";
+  }
+  &.breast.babyfood.diaper.sleep {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_breast button_breast button_breast button_breast ."
+      "button_babyfood button_babyfood button_diaper button_diaper button_sleep button_sleep";
+  }
+  &.breast.babyfood.diaper.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_breast button_breast button_breast button_breast ."
+      "button_babyfood button_babyfood button_diaper button_diaper button_growth button_growth";
+  }
+  &.breast.babyfood.sleep.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_breast button_breast button_breast button_breast ."
+      "button_babyfood button_babyfood button_sleep button_sleep button_growth button_growth";
+  }
+  &.breast.diaper.sleep.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_breast button_breast button_breast button_breast ."
+      "button_diaper button_diaper button_sleep button_sleep button_growth button_growth";
+  }
+  &.bottle.pump.babyfood.diaper {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_pump button_pump button_pump button_pump ."
+      "button_bottle button_bottle button_babyfood button_babyfood button_diaper button_diaper";
+  }
+  &.bottle.pump.babyfood.sleep {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_pump button_pump button_pump button_pump ."
+      "button_bottle button_bottle button_babyfood button_babyfood button_sleep button_sleep";
+  }
+  &.bottle.pump.babyfood.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_pump button_pump button_pump button_pump ."
+      "button_bottle button_bottle button_babyfood button_babyfood button_growth button_growth";
+  }
+  &.bottle.babyfood.diaper.sleep {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_bottle button_babyfood ."
+      ". button_diaper button_sleep .";
+  }
+  &.bottle.babyfood.diaper.growth {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_bottle button_babyfood ."
+      ". button_diaper button_growth .";
+  }
+  &.bottle.babyfood.sleep.growth {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_bottle button_babyfood ."
+      ". button_sleep button_growth .";
+  }
+  &.bottle.diaper.sleep.growth {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_bottle button_diaper ."
+      ". button_sleep button_growth .";
+  }
+  &.pump.babyfood.diaper.sleep {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_pump button_pump button_pump button_pump ."
+      "button_babyfood button_babyfood button_diaper button_diaper button_sleep button_sleep";
+  }
+  &.pump.babyfood.diaper.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_pump button_pump button_pump button_pump ."
+      "button_babyfood button_babyfood button_diaper button_diaper button_growth button_growth";
+  }
+  &.pump.babyfood.sleep.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_pump button_pump button_pump button_pump ."
+      "button_babyfood button_babyfood button_sleep button_sleep button_growth button_growth";
+  }
+  &.pump.diaper.sleep.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_pump button_pump button_pump button_pump ."
+      "button_diaper button_diaper button_sleep button_sleep button_growth button_growth";
+  }
+
+
+  /*==============================
+    3 buttons
+    ==============================*/
+  &.breast.bottle.pump {
+    grid-gap: $space--md;
+    grid-template-areas:
+      "button_breast button_breast button_breast button_breast button_bottle button_bottle"
+      ". button_pump button_pump button_pump button_pump .";
+  }
+  &.breast.bottle.babyfood {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_breast button_breast ."
+      ". button_bottle button_babyfood .";
+  }
+  &.breast.bottle.diaper {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_breast button_breast ."
+      ". button_bottle button_diaper .";
+  }
+  &.breast.bottle.sleep {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_breast button_breast ."
+      ". button_bottle button_sleep .";
+  }
+  &.breast.bottle.growth {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_breast button_breast ."
+      ". button_bottle button_growth .";
+  }
+  &.breast.pump.babyfood {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_breast button_breast button_breast button_breast ."
+      "button_pump button_pump button_pump button_pump button_babyfood button_babyfood";
+  }
+  &.breast.pump.diaper {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_breast button_breast button_breast button_breast ."
+      "button_pump button_pump button_pump button_pump button_diaper button_diaper";
+  }
+  &.breast.pump.sleep {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_breast button_breast button_breast button_breast ."
+      "button_pump button_pump button_pump button_pump button_sleep button_sleep";
+  }
+  &.breast.pump.growth {
+    grid-gap: $space--md;
+    grid-template-areas:
+      ". button_breast button_breast button_breast button_breast ."
+      "button_pump button_pump button_pump button_pump button_growth button_growth";
+  }
+  &.breast.babyfood.diaper {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_breast button_breast ."
+      ". button_babyfood button_diaper .";
+  }
+  &.breast.babyfood.sleep {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_breast button_breast ."
+      ". button_babyfood button_sleep .";
+  }
+  &.breast.babyfood.growth {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_breast button_breast ."
+      ". button_babyfood button_growth .";
+  }
+  &.breast.diaper.sleep {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_breast button_breast ."
+      ". button_diaper button_sleep .";
+  }
+  &.breast.diaper.growth {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_breast button_breast ."
+      ". button_diaper button_growth .";
+  }
+  &.breast.sleep.growth {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_breast button_breast ."
+      ". button_sleep button_growth .";
+  }
+
+
+  /*==============================
+    2 buttons
+    ==============================*/
+  &.breast.bottle {
+    grid-gap: $space--md;
+    grid-template-areas: "button_breast button_breast button_bottle";
+  }
+  &.breast.pump {
+    grid-gap: $space--xl;
+    grid-template-areas:
+      ". button_breast button_breast ."
+      ". button_pump button_pump .";
+  }
+  &.breast.babyfood {
+    grid-gap: $space--md;
+    grid-template-areas: "button_breast button_breast button_babyfood";
+  }
+  &.breast.diaper {
+    grid-gap: $space--md;
+    grid-template-areas: "button_breast button_breast button_diaper";
+  }
+  &.breast.sleep {
+    grid-gap: $space--md;
+    grid-template-areas: "button_breast button_breast button_sleep";
+  }
+  &.breast.growth {
+    grid-gap: $space--md;
+    grid-template-areas: "button_breast button_breast button_growth";
+  }
+  &.bottle.pump {
+    grid-gap: $space--md;
+    grid-template-areas: "button_pump button_pump button_bottle";
+  }
+  &.bottle.babyfood {
+    grid-gap: $space--xl;
+    grid-template-areas: ". button_bottle button_babyfood .";
+  }
+  &.bottle.diaper {
+    grid-gap: $space--xl;
+    grid-template-areas: ". button_bottle button_diaper .";
+  }
+  &.bottle.sleep {
+    grid-gap: $space--xl;
+    grid-template-areas: ". button_bottle button_sleep .";
+  }
+  &.bottle.growth {
+    grid-gap: $space--xl;
+    grid-template-areas: ". button_bottle button_growth .";
+  }
+  &.pump.babyfood {
+    grid-gap: $space--md;
+    grid-template-areas: "button_pump button_pump button_babyfood";
+  }
+  &.pump.diaper {
+    grid-gap: $space--md;
+    grid-template-areas: "button_pump button_pump button_diaper";
+  }
+  &.pump.sleep {
+    grid-gap: $space--md;
+    grid-template-areas: "button_pump button_pump button_sleep";
+  }
+  &.pump.growth {
+    grid-gap: $space--md;
+    grid-template-areas: "button_pump button_pump button_growth";
+  }
+  &.babyfood.diaper {
+    grid-gap: $space--xl;
+    grid-template-areas: ". button_babyfood button_diaper .";
+  }
+  &.babyfood.sleep {
+    grid-gap: $space--xl;
+    grid-template-areas: ". button_babyfood button_sleep .";
+  }
+  &.babyfood.growth {
+    grid-gap: $space--xl;
+    grid-template-areas: ". button_babyfood button_growth .";
+  }
+  &.diaper.sleep {
+    grid-gap: $space--xl;
+    grid-template-areas: ". button_diaper button_sleep .";
+  }
+  &.diaper.growth {
+    grid-gap: $space--xl;
+    grid-template-areas: ". button_diaper button_growth .";
+  }
+  &.sleep.growth {
+    grid-gap: $space--xl;
+    grid-template-areas: ". button_sleep button_growth .";
+  }
+
+
+  /*==============================
+    1 button
+    ==============================*/
+  &.breast { grid-template-areas: ". . button_breast . ."; }
+  &.bottle { grid-template-areas: ". . button_bottle . ."; }
+  &.pump { grid-template-areas: ". . button_pump . ."; }
+  &.babyfood { grid-template-areas: ". . button_babyfood . ."; }
+  &.diaper { grid-template-areas: ". . button_diaper . ."; }
+  &.sleep { grid-template-areas: ". . button_sleep . ."; }
+  &.growth { grid-template-areas: ". . button_growth . ."; }
+}

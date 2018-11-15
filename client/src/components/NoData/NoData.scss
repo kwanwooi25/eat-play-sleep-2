@@ -1,0 +1,11 @@
+.no-data {
+  @extend %box;
+  @extend %flex-center-column;
+  margin: $space--sm;
+  padding: $space--md;
+  
+  &__icon {
+    font-size: 3rem !important;
+    margin-bottom: $space--md;
+  }
+}

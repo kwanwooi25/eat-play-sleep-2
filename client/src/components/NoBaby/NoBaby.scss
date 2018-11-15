@@ -1,0 +1,16 @@
+.no-baby__display {
+  @extend %flex-center-column;
+
+  &__button {
+    @extend %button--primary;
+    margin: $space--lg;
+    padding: $space--sm;
+    border-radius: 100%;
+  }
+
+  &__message {
+    text-align: center;
+    margin: 0;
+    margin-bottom: $space--sm;
+  }
+}

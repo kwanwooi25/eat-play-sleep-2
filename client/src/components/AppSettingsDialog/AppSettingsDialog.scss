@@ -1,0 +1,13 @@
+.app-settings-dialog {
+
+  &__title {
+    padding: $space--sm;
+  }
+  
+  &__display-activities {
+    .custom-selector__options {
+      @extend %flex-center-row;
+      flex-wrap: wrap;
+    }
+  }
+}

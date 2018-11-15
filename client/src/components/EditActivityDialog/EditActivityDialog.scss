@@ -1,0 +1,76 @@
+.edit-activity-dialog {
+  @extend %flex-center-column;
+  overflow: hidden;
+  width: 100%;
+
+  &__title {
+    width: 100%;
+
+    h3 {
+      padding: $space--md;
+      padding-bottom: $space--xs;
+    }
+  }
+
+  &__form {
+    @extend %flex-center-column;
+    padding: $space--sm;
+    overflow-y: auto;
+    width: 100%;
+
+    &__element {
+      @extend %flex-center-column;
+
+      &__date-time-picker {
+        margin-top: 0;
+        
+        .custom-date-time-picker__picker-button,
+        .custom-date-time-picker__now-button {
+          font-size: $font-size--small;
+        }
+      }
+
+      &__row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: $space--md;
+      }
+    }
+
+    
+  }
+
+  &__buttons {
+    @extend %flex-center-row;
+    width: 100%;
+    margin-top: $space--sm;
+
+    button {
+      flex: 1;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      font-size: $font-size--medium;
+      padding: $space--sm;
+    }
+    
+    &__confirm {
+      background: $color-primary;
+      color: white;
+
+      &:hover {
+        background: $color-primary--dark;
+      }
+    }
+
+    &__cancel {
+      background: $color-primary--xlight;
+      color: $color-primary--xdark;
+
+      &:hover {
+        background: $color-primary--light;
+        color: white;
+      }
+    }
+  }
+}

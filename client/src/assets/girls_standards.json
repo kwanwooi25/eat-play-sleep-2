@@ -1,0 +1,1472 @@
+{
+	"height": [
+			{
+					"month": 0,
+					"third": 45.6,
+					"fifteenth": 47.2,
+					"median": 49.1,
+					"eightyfifth": 51.1,
+					"ninetyseventh": 52.7
+			},
+			{
+					"month": 1,
+					"third": 50.0,
+					"fifteenth": 51.7,
+					"median": 53.7,
+					"eightyfifth": 55.7,
+					"ninetyseventh": 57.4
+			},
+			{
+					"month": 2,
+					"third": 53.2,
+					"fifteenth": 55.0,
+					"median": 57.1,
+					"eightyfifth": 59.2,
+					"ninetyseventh": 60.9
+			},
+			{
+					"month": 3,
+					"third": 55.8,
+					"fifteenth": 57.6,
+					"median": 59.8,
+					"eightyfifth": 62.0,
+					"ninetyseventh": 63.8
+			},
+			{
+					"month": 4,
+					"third": 58.0,
+					"fifteenth": 59.8,
+					"median": 62.1,
+					"eightyfifth": 64.3,
+					"ninetyseventh": 66.2
+			},
+			{
+					"month": 5,
+					"third": 59.9,
+					"fifteenth": 61.7,
+					"median": 64.0,
+					"eightyfifth": 66.3,
+					"ninetyseventh": 68.2
+			},
+			{
+					"month": 6,
+					"third": 61.5,
+					"fifteenth": 63.4,
+					"median": 65.7,
+					"eightyfifth": 68.1,
+					"ninetyseventh": 70.0
+			},
+			{
+					"month": 7,
+					"third": 62.9,
+					"fifteenth": 64.9,
+					"median": 67.3,
+					"eightyfifth": 69.7,
+					"ninetyseventh": 71.6
+			},
+			{
+					"month": 8,
+					"third": 64.3,
+					"fifteenth": 66.3,
+					"median": 68.7,
+					"eightyfifth": 71.2,
+					"ninetyseventh": 73.2
+			},
+			{
+					"month": 9,
+					"third": 65.6,
+					"fifteenth": 67.6,
+					"median": 70.1,
+					"eightyfifth": 72.6,
+					"ninetyseventh": 74.7
+			},
+			{
+					"month": 10,
+					"third": 66.8,
+					"fifteenth": 68.9,
+					"median": 71.5,
+					"eightyfifth": 74.0,
+					"ninetyseventh": 76.1
+			},
+			{
+					"month": 11,
+					"third": 68.0,
+					"fifteenth": 70.2,
+					"median": 72.8,
+					"eightyfifth": 75.4,
+					"ninetyseventh": 77.5
+			},
+			{
+					"month": 12,
+					"third": 69.2,
+					"fifteenth": 71.3,
+					"median": 74.0,
+					"eightyfifth": 76.7,
+					"ninetyseventh": 78.9
+			},
+			{
+					"month": 13,
+					"third": 70.3,
+					"fifteenth": 72.5,
+					"median": 75.2,
+					"eightyfifth": 77.9,
+					"ninetyseventh": 80.2
+			},
+			{
+					"month": 14,
+					"third": 71.3,
+					"fifteenth": 73.6,
+					"median": 76.4,
+					"eightyfifth": 79.2,
+					"ninetyseventh": 81.4
+			},
+			{
+					"month": 15,
+					"third": 72.4,
+					"fifteenth": 74.7,
+					"median": 77.5,
+					"eightyfifth": 80.3,
+					"ninetyseventh": 82.7
+			},
+			{
+					"month": 16,
+					"third": 73.3,
+					"fifteenth": 75.7,
+					"median": 78.6,
+					"eightyfifth": 81.5,
+					"ninetyseventh": 83.9
+			},
+			{
+					"month": 17,
+					"third": 74.3,
+					"fifteenth": 76.7,
+					"median": 79.7,
+					"eightyfifth": 82.6,
+					"ninetyseventh": 85.0
+			},
+			{
+					"month": 18,
+					"third": 75.2,
+					"fifteenth": 77.7,
+					"median": 80.7,
+					"eightyfifth": 83.7,
+					"ninetyseventh": 86.2
+			},
+			{
+					"month": 19,
+					"third": 76.2,
+					"fifteenth": 78.7,
+					"median": 81.7,
+					"eightyfifth": 84.8,
+					"ninetyseventh": 87.3
+			},
+			{
+					"month": 20,
+					"third": 77.0,
+					"fifteenth": 79.6,
+					"median": 82.7,
+					"eightyfifth": 85.8,
+					"ninetyseventh": 88.4
+			},
+			{
+					"month": 21,
+					"third": 77.9,
+					"fifteenth": 80.5,
+					"median": 83.7,
+					"eightyfifth": 86.8,
+					"ninetyseventh": 89.4
+			},
+			{
+					"month": 22,
+					"third": 78.7,
+					"fifteenth": 81.4,
+					"median": 84.6,
+					"eightyfifth": 87.8,
+					"ninetyseventh": 90.5
+			},
+			{
+					"month": 23,
+					"third": 79.6,
+					"fifteenth": 82.2,
+					"median": 85.5,
+					"eightyfifth": 88.8,
+					"ninetyseventh": 91.5
+			},
+			{
+					"month": 24,
+					"third": 79.6,
+					"fifteenth": 82.4,
+					"median": 85.7,
+					"eightyfifth": 89.1,
+					"ninetyseventh": 91.8
+			},
+			{
+					"month": 25,
+					"third": 80.4,
+					"fifteenth": 83.2,
+					"median": 86.6,
+					"eightyfifth": 90.0,
+					"ninetyseventh": 92.8
+			},
+			{
+					"month": 26,
+					"third": 81.2,
+					"fifteenth": 84.0,
+					"median": 87.4,
+					"eightyfifth": 90.9,
+					"ninetyseventh": 93.7
+			},
+			{
+					"month": 27,
+					"third": 81.9,
+					"fifteenth": 84.8,
+					"median": 88.3,
+					"eightyfifth": 91.8,
+					"ninetyseventh": 94.6
+			},
+			{
+					"month": 28,
+					"third": 82.6,
+					"fifteenth": 85.5,
+					"median": 89.1,
+					"eightyfifth": 92.7,
+					"ninetyseventh": 95.6
+			},
+			{
+					"month": 29,
+					"third": 83.4,
+					"fifteenth": 86.3,
+					"median": 89.9,
+					"eightyfifth": 93.5,
+					"ninetyseventh": 96.4
+			},
+			{
+					"month": 30,
+					"third": 84.0,
+					"fifteenth": 87.0,
+					"median": 90.7,
+					"eightyfifth": 94.3,
+					"ninetyseventh": 97.3
+			},
+			{
+					"month": 31,
+					"third": 84.7,
+					"fifteenth": 87.7,
+					"median": 91.4,
+					"eightyfifth": 95.2,
+					"ninetyseventh": 98.2
+			},
+			{
+					"month": 32,
+					"third": 85.4,
+					"fifteenth": 88.4,
+					"median": 92.2,
+					"eightyfifth": 95.9,
+					"ninetyseventh": 99.0
+			},
+			{
+					"month": 33,
+					"third": 86.0,
+					"fifteenth": 89.1,
+					"median": 92.9,
+					"eightyfifth": 96.7,
+					"ninetyseventh": 99.8
+			},
+			{
+					"month": 34,
+					"third": 86.7,
+					"fifteenth": 89.8,
+					"median": 93.6,
+					"eightyfifth": 97.5,
+					"ninetyseventh": 100.6
+			},
+			{
+					"month": 35,
+					"third": 87.3,
+					"fifteenth": 90.5,
+					"median": 94.4,
+					"eightyfifth": 98.3,
+					"ninetyseventh": 101.4
+			},
+			{
+					"month": 36,
+					"third": 87.9,
+					"fifteenth": 91.1,
+					"median": 95.1,
+					"eightyfifth": 99.0,
+					"ninetyseventh": 102.2
+			},
+			{
+					"month": 37,
+					"third": 88.5,
+					"fifteenth": 91.7,
+					"median": 95.7,
+					"eightyfifth": 99.7,
+					"ninetyseventh": 103.0
+			},
+			{
+					"month": 38,
+					"third": 89.1,
+					"fifteenth": 92.4,
+					"median": 96.4,
+					"eightyfifth": 100.5,
+					"ninetyseventh": 103.7
+			},
+			{
+					"month": 39,
+					"third": 89.7,
+					"fifteenth": 93.0,
+					"median": 97.1,
+					"eightyfifth": 101.2,
+					"ninetyseventh": 104.5
+			},
+			{
+					"month": 40,
+					"third": 90.3,
+					"fifteenth": 93.6,
+					"median": 97.7,
+					"eightyfifth": 101.9,
+					"ninetyseventh": 105.2
+			},
+			{
+					"month": 41,
+					"third": 90.8,
+					"fifteenth": 94.2,
+					"median": 98.4,
+					"eightyfifth": 102.6,
+					"ninetyseventh": 106.0
+			},
+			{
+					"month": 42,
+					"third": 91.4,
+					"fifteenth": 94.8,
+					"median": 99.0,
+					"eightyfifth": 103.3,
+					"ninetyseventh": 106.7
+			},
+			{
+					"month": 43,
+					"third": 92.0,
+					"fifteenth": 95.4,
+					"median": 99.7,
+					"eightyfifth": 103.9,
+					"ninetyseventh": 107.4
+			},
+			{
+					"month": 44,
+					"third": 92.5,
+					"fifteenth": 96.0,
+					"median": 100.3,
+					"eightyfifth": 104.6,
+					"ninetyseventh": 108.1
+			},
+			{
+					"month": 45,
+					"third": 93.0,
+					"fifteenth": 96.6,
+					"median": 100.9,
+					"eightyfifth": 105.3,
+					"ninetyseventh": 108.8
+			},
+			{
+					"month": 46,
+					"third": 93.6,
+					"fifteenth": 97.2,
+					"median": 101.5,
+					"eightyfifth": 105.9,
+					"ninetyseventh": 109.5
+			},
+			{
+					"month": 47,
+					"third": 94.1,
+					"fifteenth": 97.7,
+					"median": 102.1,
+					"eightyfifth": 106.6,
+					"ninetyseventh": 110.2
+			},
+			{
+					"month": 48,
+					"third": 94.6,
+					"fifteenth": 98.3,
+					"median": 102.7,
+					"eightyfifth": 107.2,
+					"ninetyseventh": 110.8
+			},
+			{
+					"month": 49,
+					"third": 95.1,
+					"fifteenth": 98.8,
+					"median": 103.3,
+					"eightyfifth": 107.8,
+					"ninetyseventh": 111.5
+			},
+			{
+					"month": 50,
+					"third": 95.7,
+					"fifteenth": 99.4,
+					"median": 103.9,
+					"eightyfifth": 108.4,
+					"ninetyseventh": 112.1
+			},
+			{
+					"month": 51,
+					"third": 96.2,
+					"fifteenth": 99.9,
+					"median": 104.5,
+					"eightyfifth": 109.1,
+					"ninetyseventh": 112.8
+			},
+			{
+					"month": 52,
+					"third": 96.7,
+					"fifteenth": 100.4,
+					"median": 105.0,
+					"eightyfifth": 109.7,
+					"ninetyseventh": 113.4
+			},
+			{
+					"month": 53,
+					"third": 97.2,
+					"fifteenth": 101.0,
+					"median": 105.6,
+					"eightyfifth": 110.3,
+					"ninetyseventh": 114.1
+			},
+			{
+					"month": 54,
+					"third": 97.6,
+					"fifteenth": 101.5,
+					"median": 106.2,
+					"eightyfifth": 110.9,
+					"ninetyseventh": 114.7
+			},
+			{
+					"month": 55,
+					"third": 98.1,
+					"fifteenth": 102.0,
+					"median": 106.7,
+					"eightyfifth": 111.5,
+					"ninetyseventh": 115.3
+			},
+			{
+					"month": 56,
+					"third": 98.6,
+					"fifteenth": 102.5,
+					"median": 107.3,
+					"eightyfifth": 112.1,
+					"ninetyseventh": 116.0
+			},
+			{
+					"month": 57,
+					"third": 99.1,
+					"fifteenth": 103.0,
+					"median": 107.8,
+					"eightyfifth": 112.6,
+					"ninetyseventh": 116.6
+			},
+			{
+					"month": 58,
+					"third": 99.6,
+					"fifteenth": 103.5,
+					"median": 108.4,
+					"eightyfifth": 113.2,
+					"ninetyseventh": 117.2
+			},
+			{
+					"month": 59,
+					"third": 100.0,
+					"fifteenth": 104.0,
+					"median": 108.9,
+					"eightyfifth": 113.8,
+					"ninetyseventh": 117.8
+			},
+			{
+					"month": 60,
+					"third": 100.5,
+					"fifteenth": 104.5,
+					"median": 109.4,
+					"eightyfifth": 114.4,
+					"ninetyseventh": 118.4
+			}
+	],
+	"weight": [
+			{
+					"month": 0,
+					"third": 2.4,
+					"fifteenth": 2.8,
+					"median": 3.2,
+					"eightyfifth": 3.7,
+					"ninetyseventh": 4.2
+			},
+			{
+					"month": 1,
+					"third": 3.2,
+					"fifteenth": 3.6,
+					"median": 4.2,
+					"eightyfifth": 4.8,
+					"ninetyseventh": 5.4
+			},
+			{
+					"month": 2,
+					"third": 4.0,
+					"fifteenth": 4.5,
+					"median": 5.1,
+					"eightyfifth": 5.9,
+					"ninetyseventh": 6.5
+			},
+			{
+					"month": 3,
+					"third": 4.6,
+					"fifteenth": 5.1,
+					"median": 5.8,
+					"eightyfifth": 6.7,
+					"ninetyseventh": 7.4
+			},
+			{
+					"month": 4,
+					"third": 5.1,
+					"fifteenth": 5.6,
+					"median": 6.4,
+					"eightyfifth": 7.3,
+					"ninetyseventh": 8.1
+			},
+			{
+					"month": 5,
+					"third": 5.5,
+					"fifteenth": 6.1,
+					"median": 6.9,
+					"eightyfifth": 7.8,
+					"ninetyseventh": 8.7
+			},
+			{
+					"month": 6,
+					"third": 5.8,
+					"fifteenth": 6.4,
+					"median": 7.3,
+					"eightyfifth": 8.3,
+					"ninetyseventh": 9.2
+			},
+			{
+					"month": 7,
+					"third": 6.1,
+					"fifteenth": 6.7,
+					"median": 7.6,
+					"eightyfifth": 8.7,
+					"ninetyseventh": 9.6
+			},
+			{
+					"month": 8,
+					"third": 6.3,
+					"fifteenth": 7.0,
+					"median": 7.9,
+					"eightyfifth": 9.0,
+					"ninetyseventh": 10.0
+			},
+			{
+					"month": 9,
+					"third": 6.6,
+					"fifteenth": 7.3,
+					"median": 8.2,
+					"eightyfifth": 9.3,
+					"ninetyseventh": 10.4
+			},
+			{
+					"month": 10,
+					"third": 6.8,
+					"fifteenth": 7.5,
+					"median": 8.5,
+					"eightyfifth": 9.6,
+					"ninetyseventh": 10.7
+			},
+			{
+					"month": 11,
+					"third": 7.0,
+					"fifteenth": 7.7,
+					"median": 8.7,
+					"eightyfifth": 9.9,
+					"ninetyseventh": 11.0
+			},
+			{
+					"month": 12,
+					"third": 7.1,
+					"fifteenth": 7.9,
+					"median": 8.9,
+					"eightyfifth": 10.2,
+					"ninetyseventh": 11.3
+			},
+			{
+					"month": 13,
+					"third": 7.3,
+					"fifteenth": 8.1,
+					"median": 9.2,
+					"eightyfifth": 10.4,
+					"ninetyseventh": 11.6
+			},
+			{
+					"month": 14,
+					"third": 7.5,
+					"fifteenth": 8.3,
+					"median": 9.4,
+					"eightyfifth": 10.7,
+					"ninetyseventh": 11.9
+			},
+			{
+					"month": 15,
+					"third": 7.7,
+					"fifteenth": 8.5,
+					"median": 9.6,
+					"eightyfifth": 10.9,
+					"ninetyseventh": 12.2
+			},
+			{
+					"month": 16,
+					"third": 7.8,
+					"fifteenth": 8.7,
+					"median": 9.8,
+					"eightyfifth": 11.2,
+					"ninetyseventh": 12.5
+			},
+			{
+					"month": 17,
+					"third": 8.0,
+					"fifteenth": 8.8,
+					"median": 10.0,
+					"eightyfifth": 11.4,
+					"ninetyseventh": 12.7
+			},
+			{
+					"month": 18,
+					"third": 8.2,
+					"fifteenth": 9.0,
+					"median": 10.2,
+					"eightyfifth": 11.6,
+					"ninetyseventh": 13.0
+			},
+			{
+					"month": 19,
+					"third": 8.3,
+					"fifteenth": 9.2,
+					"median": 10.4,
+					"eightyfifth": 11.9,
+					"ninetyseventh": 13.3
+			},
+			{
+					"month": 20,
+					"third": 8.5,
+					"fifteenth": 9.4,
+					"median": 10.6,
+					"eightyfifth": 12.1,
+					"ninetyseventh": 13.5
+			},
+			{
+					"month": 21,
+					"third": 8.7,
+					"fifteenth": 9.6,
+					"median": 10.9,
+					"eightyfifth": 12.4,
+					"ninetyseventh": 13.8
+			},
+			{
+					"month": 22,
+					"third": 8.8,
+					"fifteenth": 9.8,
+					"median": 11.1,
+					"eightyfifth": 12.6,
+					"ninetyseventh": 14.1
+			},
+			{
+					"month": 23,
+					"third": 9.0,
+					"fifteenth": 9.9,
+					"median": 11.3,
+					"eightyfifth": 12.8,
+					"ninetyseventh": 14.3
+			},
+			{
+					"month": 24,
+					"third": 9.2,
+					"fifteenth": 10.1,
+					"median": 11.5,
+					"eightyfifth": 13.1,
+					"ninetyseventh": 14.6
+			},
+			{
+					"month": 25,
+					"third": 9.3,
+					"fifteenth": 10.3,
+					"median": 11.7,
+					"eightyfifth": 13.3,
+					"ninetyseventh": 14.9
+			},
+			{
+					"month": 26,
+					"third": 9.5,
+					"fifteenth": 10.5,
+					"median": 11.9,
+					"eightyfifth": 13.6,
+					"ninetyseventh": 15.2
+			},
+			{
+					"month": 27,
+					"third": 9.6,
+					"fifteenth": 10.7,
+					"median": 12.1,
+					"eightyfifth": 13.8,
+					"ninetyseventh": 15.4
+			},
+			{
+					"month": 28,
+					"third": 9.8,
+					"fifteenth": 10.8,
+					"median": 12.3,
+					"eightyfifth": 14.0,
+					"ninetyseventh": 15.7
+			},
+			{
+					"month": 29,
+					"third": 10.0,
+					"fifteenth": 11.0,
+					"median": 12.5,
+					"eightyfifth": 14.3,
+					"ninetyseventh": 16.0
+			},
+			{
+					"month": 30,
+					"third": 10.1,
+					"fifteenth": 11.2,
+					"median": 12.7,
+					"eightyfifth": 14.5,
+					"ninetyseventh": 16.2
+			},
+			{
+					"month": 31,
+					"third": 10.3,
+					"fifteenth": 11.3,
+					"median": 12.9,
+					"eightyfifth": 14.7,
+					"ninetyseventh": 16.5
+			},
+			{
+					"month": 32,
+					"third": 10.4,
+					"fifteenth": 11.5,
+					"median": 13.1,
+					"eightyfifth": 15.0,
+					"ninetyseventh": 16.8
+			},
+			{
+					"month": 33,
+					"third": 10.5,
+					"fifteenth": 11.7,
+					"median": 13.3,
+					"eightyfifth": 15.2,
+					"ninetyseventh": 17.0
+			},
+			{
+					"month": 34,
+					"third": 10.7,
+					"fifteenth": 11.8,
+					"median": 13.5,
+					"eightyfifth": 15.4,
+					"ninetyseventh": 17.3
+			},
+			{
+					"month": 35,
+					"third": 10.8,
+					"fifteenth": 12.0,
+					"median": 13.7,
+					"eightyfifth": 15.7,
+					"ninetyseventh": 17.6
+			},
+			{
+					"month": 36,
+					"third": 11.0,
+					"fifteenth": 12.1,
+					"median": 13.9,
+					"eightyfifth": 15.9,
+					"ninetyseventh": 17.8
+			},
+			{
+					"month": 37,
+					"third": 11.1,
+					"fifteenth": 12.3,
+					"median": 14.0,
+					"eightyfifth": 16.1,
+					"ninetyseventh": 18.1
+			},
+			{
+					"month": 38,
+					"third": 11.2,
+					"fifteenth": 12.5,
+					"median": 14.2,
+					"eightyfifth": 16.3,
+					"ninetyseventh": 18.4
+			},
+			{
+					"month": 39,
+					"third": 11.4,
+					"fifteenth": 12.6,
+					"median": 14.4,
+					"eightyfifth": 16.6,
+					"ninetyseventh": 18.6
+			},
+			{
+					"month": 40,
+					"third": 11.5,
+					"fifteenth": 12.8,
+					"median": 14.6,
+					"eightyfifth": 16.8,
+					"ninetyseventh": 18.9
+			},
+			{
+					"month": 41,
+					"third": 11.6,
+					"fifteenth": 12.9,
+					"median": 14.8,
+					"eightyfifth": 17.0,
+					"ninetyseventh": 19.2
+			},
+			{
+					"month": 42,
+					"third": 11.8,
+					"fifteenth": 13.1,
+					"median": 15.0,
+					"eightyfifth": 17.3,
+					"ninetyseventh": 19.5
+			},
+			{
+					"month": 43,
+					"third": 11.9,
+					"fifteenth": 13.2,
+					"median": 15.2,
+					"eightyfifth": 17.5,
+					"ninetyseventh": 19.7
+			},
+			{
+					"month": 44,
+					"third": 12.0,
+					"fifteenth": 13.4,
+					"median": 15.3,
+					"eightyfifth": 17.7,
+					"ninetyseventh": 20.0
+			},
+			{
+					"month": 45,
+					"third": 12.1,
+					"fifteenth": 13.5,
+					"median": 15.5,
+					"eightyfifth": 17.9,
+					"ninetyseventh": 20.3
+			},
+			{
+					"month": 46,
+					"third": 12.3,
+					"fifteenth": 13.7,
+					"median": 15.7,
+					"eightyfifth": 18.2,
+					"ninetyseventh": 20.6
+			},
+			{
+					"month": 47,
+					"third": 12.4,
+					"fifteenth": 13.8,
+					"median": 15.9,
+					"eightyfifth": 18.4,
+					"ninetyseventh": 20.8
+			},
+			{
+					"month": 48,
+					"third": 12.5,
+					"fifteenth": 14.0,
+					"median": 16.1,
+					"eightyfifth": 18.6,
+					"ninetyseventh": 21.1
+			},
+			{
+					"month": 49,
+					"third": 12.6,
+					"fifteenth": 14.1,
+					"median": 16.3,
+					"eightyfifth": 18.9,
+					"ninetyseventh": 21.4
+			},
+			{
+					"month": 50,
+					"third": 12.8,
+					"fifteenth": 14.3,
+					"median": 16.4,
+					"eightyfifth": 19.1,
+					"ninetyseventh": 21.7
+			},
+			{
+					"month": 51,
+					"third": 12.9,
+					"fifteenth": 14.4,
+					"median": 16.6,
+					"eightyfifth": 19.3,
+					"ninetyseventh": 22.0
+			},
+			{
+					"month": 52,
+					"third": 13.0,
+					"fifteenth": 14.5,
+					"median": 16.8,
+					"eightyfifth": 19.5,
+					"ninetyseventh": 22.2
+			},
+			{
+					"month": 53,
+					"third": 13.1,
+					"fifteenth": 14.7,
+					"median": 17.0,
+					"eightyfifth": 19.8,
+					"ninetyseventh": 22.5
+			},
+			{
+					"month": 54,
+					"third": 13.2,
+					"fifteenth": 14.8,
+					"median": 17.2,
+					"eightyfifth": 20.0,
+					"ninetyseventh": 22.8
+			},
+			{
+					"month": 55,
+					"third": 13.4,
+					"fifteenth": 15.0,
+					"median": 17.3,
+					"eightyfifth": 20.2,
+					"ninetyseventh": 23.1
+			},
+			{
+					"month": 56,
+					"third": 13.5,
+					"fifteenth": 15.1,
+					"median": 17.5,
+					"eightyfifth": 20.4,
+					"ninetyseventh": 23.3
+			},
+			{
+					"month": 57,
+					"third": 13.6,
+					"fifteenth": 15.3,
+					"median": 17.7,
+					"eightyfifth": 20.7,
+					"ninetyseventh": 23.6
+			},
+			{
+					"month": 58,
+					"third": 13.7,
+					"fifteenth": 15.4,
+					"median": 17.9,
+					"eightyfifth": 20.9,
+					"ninetyseventh": 23.9
+			},
+			{
+					"month": 59,
+					"third": 13.8,
+					"fifteenth": 15.5,
+					"median": 18.0,
+					"eightyfifth": 21.1,
+					"ninetyseventh": 24.2
+			},
+			{
+					"month": 60,
+					"third": 14.0,
+					"fifteenth": 15.7,
+					"median": 18.2,
+					"eightyfifth": 21.3,
+					"ninetyseventh": 24.4
+			}
+	],
+	"head": [
+			{
+					"month": 0,
+					"third": 31.7,
+					"fifteenth": 32.7,
+					"median": 33.9,
+					"eightyfifth": 35.1,
+					"ninetyseventh": 36.1
+			},
+			{
+					"month": 1,
+					"third": 34.3,
+					"fifteenth": 35.3,
+					"median": 36.5,
+					"eightyfifth": 37.8,
+					"ninetyseventh": 38.8
+			},
+			{
+					"month": 2,
+					"third": 36.0,
+					"fifteenth": 37.0,
+					"median": 38.3,
+					"eightyfifth": 39.5,
+					"ninetyseventh": 40.5
+			},
+			{
+					"month": 3,
+					"third": 37.2,
+					"fifteenth": 38.2,
+					"median": 39.5,
+					"eightyfifth": 40.8,
+					"ninetyseventh": 41.9
+			},
+			{
+					"month": 4,
+					"third": 38.2,
+					"fifteenth": 39.3,
+					"median": 40.6,
+					"eightyfifth": 41.9,
+					"ninetyseventh": 43.0
+			},
+			{
+					"month": 5,
+					"third": 39.0,
+					"fifteenth": 40.1,
+					"median": 41.5,
+					"eightyfifth": 42.8,
+					"ninetyseventh": 43.9
+			},
+			{
+					"month": 6,
+					"third": 39.7,
+					"fifteenth": 40.8,
+					"median": 42.2,
+					"eightyfifth": 43.5,
+					"ninetyseventh": 44.6
+			},
+			{
+					"month": 7,
+					"third": 40.4,
+					"fifteenth": 41.5,
+					"median": 42.8,
+					"eightyfifth": 44.2,
+					"ninetyseventh": 45.3
+			},
+			{
+					"month": 8,
+					"third": 40.9,
+					"fifteenth": 42.0,
+					"median": 43.4,
+					"eightyfifth": 44.7,
+					"ninetyseventh": 45.9
+			},
+			{
+					"month": 9,
+					"third": 41.3,
+					"fifteenth": 42.4,
+					"median": 43.8,
+					"eightyfifth": 45.2,
+					"ninetyseventh": 46.3
+			},
+			{
+					"month": 10,
+					"third": 41.7,
+					"fifteenth": 42.8,
+					"median": 44.2,
+					"eightyfifth": 45.6,
+					"ninetyseventh": 46.8
+			},
+			{
+					"month": 11,
+					"third": 42.0,
+					"fifteenth": 43.2,
+					"median": 44.6,
+					"eightyfifth": 46.0,
+					"ninetyseventh": 47.1
+			},
+			{
+					"month": 12,
+					"third": 42.3,
+					"fifteenth": 43.5,
+					"median": 44.9,
+					"eightyfifth": 46.3,
+					"ninetyseventh": 47.5
+			},
+			{
+					"month": 13,
+					"third": 42.6,
+					"fifteenth": 43.8,
+					"median": 45.2,
+					"eightyfifth": 46.6,
+					"ninetyseventh": 47.7
+			},
+			{
+					"month": 14,
+					"third": 42.9,
+					"fifteenth": 44.0,
+					"median": 45.4,
+					"eightyfifth": 46.8,
+					"ninetyseventh": 48.0
+			},
+			{
+					"month": 15,
+					"third": 43.1,
+					"fifteenth": 44.2,
+					"median": 45.7,
+					"eightyfifth": 47.1,
+					"ninetyseventh": 48.2
+			},
+			{
+					"month": 16,
+					"third": 43.3,
+					"fifteenth": 44.4,
+					"median": 45.9,
+					"eightyfifth": 47.3,
+					"ninetyseventh": 48.5
+			},
+			{
+					"month": 17,
+					"third": 43.5,
+					"fifteenth": 44.6,
+					"median": 46.1,
+					"eightyfifth": 47.5,
+					"ninetyseventh": 48.7
+			},
+			{
+					"month": 18,
+					"third": 43.6,
+					"fifteenth": 44.8,
+					"median": 46.2,
+					"eightyfifth": 47.7,
+					"ninetyseventh": 48.8
+			},
+			{
+					"month": 19,
+					"third": 43.8,
+					"fifteenth": 45.0,
+					"median": 46.4,
+					"eightyfifth": 47.8,
+					"ninetyseventh": 49.0
+			},
+			{
+					"month": 20,
+					"third": 44.0,
+					"fifteenth": 45.1,
+					"median": 46.6,
+					"eightyfifth": 48.0,
+					"ninetyseventh": 49.2
+			},
+			{
+					"month": 21,
+					"third": 44.1,
+					"fifteenth": 45.3,
+					"median": 46.7,
+					"eightyfifth": 48.2,
+					"ninetyseventh": 49.4
+			},
+			{
+					"month": 22,
+					"third": 44.3,
+					"fifteenth": 45.4,
+					"median": 46.9,
+					"eightyfifth": 48.3,
+					"ninetyseventh": 49.5
+			},
+			{
+					"month": 23,
+					"third": 44.4,
+					"fifteenth": 45.6,
+					"median": 47.0,
+					"eightyfifth": 48.5,
+					"ninetyseventh": 49.7
+			},
+			{
+					"month": 24,
+					"third": 44.6,
+					"fifteenth": 45.7,
+					"median": 47.2,
+					"eightyfifth": 48.6,
+					"ninetyseventh": 49.8
+			},
+			{
+					"month": 25,
+					"third": 44.7,
+					"fifteenth": 45.9,
+					"median": 47.3,
+					"eightyfifth": 48.8,
+					"ninetyseventh": 49.9
+			},
+			{
+					"month": 26,
+					"third": 44.8,
+					"fifteenth": 46.0,
+					"median": 47.5,
+					"eightyfifth": 48.9,
+					"ninetyseventh": 50.1
+			},
+			{
+					"month": 27,
+					"third": 44.9,
+					"fifteenth": 46.1,
+					"median": 47.6,
+					"eightyfifth": 49.0,
+					"ninetyseventh": 50.2
+			},
+			{
+					"month": 28,
+					"third": 45.1,
+					"fifteenth": 46.3,
+					"median": 47.7,
+					"eightyfifth": 49.2,
+					"ninetyseventh": 50.3
+			},
+			{
+					"month": 29,
+					"third": 45.2,
+					"fifteenth": 46.4,
+					"median": 47.8,
+					"eightyfifth": 49.3,
+					"ninetyseventh": 50.5
+			},
+			{
+					"month": 30,
+					"third": 45.3,
+					"fifteenth": 46.5,
+					"median": 47.9,
+					"eightyfifth": 49.4,
+					"ninetyseventh": 50.6
+			},
+			{
+					"month": 31,
+					"third": 45.4,
+					"fifteenth": 46.6,
+					"median": 48.0,
+					"eightyfifth": 49.5,
+					"ninetyseventh": 50.7
+			},
+			{
+					"month": 32,
+					"third": 45.5,
+					"fifteenth": 46.7,
+					"median": 48.1,
+					"eightyfifth": 49.6,
+					"ninetyseventh": 50.8
+			},
+			{
+					"month": 33,
+					"third": 45.6,
+					"fifteenth": 46.8,
+					"median": 48.2,
+					"eightyfifth": 49.7,
+					"ninetyseventh": 50.9
+			},
+			{
+					"month": 34,
+					"third": 45.7,
+					"fifteenth": 46.9,
+					"median": 48.3,
+					"eightyfifth": 49.8,
+					"ninetyseventh": 51.0
+			},
+			{
+					"month": 35,
+					"third": 45.8,
+					"fifteenth": 47.0,
+					"median": 48.4,
+					"eightyfifth": 49.9,
+					"ninetyseventh": 51.1
+			},
+			{
+					"month": 36,
+					"third": 45.9,
+					"fifteenth": 47.0,
+					"median": 48.5,
+					"eightyfifth": 50.0,
+					"ninetyseventh": 51.2
+			},
+			{
+					"month": 37,
+					"third": 45.9,
+					"fifteenth": 47.1,
+					"median": 48.6,
+					"eightyfifth": 50.1,
+					"ninetyseventh": 51.3
+			},
+			{
+					"month": 38,
+					"third": 46.0,
+					"fifteenth": 47.2,
+					"median": 48.7,
+					"eightyfifth": 50.1,
+					"ninetyseventh": 51.3
+			},
+			{
+					"month": 39,
+					"third": 46.1,
+					"fifteenth": 47.3,
+					"median": 48.7,
+					"eightyfifth": 50.2,
+					"ninetyseventh": 51.4
+			},
+			{
+					"month": 40,
+					"third": 46.2,
+					"fifteenth": 47.4,
+					"median": 48.8,
+					"eightyfifth": 50.3,
+					"ninetyseventh": 51.5
+			},
+			{
+					"month": 41,
+					"third": 46.2,
+					"fifteenth": 47.4,
+					"median": 48.9,
+					"eightyfifth": 50.4,
+					"ninetyseventh": 51.6
+			},
+			{
+					"month": 42,
+					"third": 46.3,
+					"fifteenth": 47.5,
+					"median": 49.0,
+					"eightyfifth": 50.4,
+					"ninetyseventh": 51.6
+			},
+			{
+					"month": 43,
+					"third": 46.4,
+					"fifteenth": 47.6,
+					"median": 49.0,
+					"eightyfifth": 50.5,
+					"ninetyseventh": 51.7
+			},
+			{
+					"month": 44,
+					"third": 46.4,
+					"fifteenth": 47.6,
+					"median": 49.1,
+					"eightyfifth": 50.6,
+					"ninetyseventh": 51.8
+			},
+			{
+					"month": 45,
+					"third": 46.5,
+					"fifteenth": 47.7,
+					"median": 49.2,
+					"eightyfifth": 50.6,
+					"ninetyseventh": 51.8
+			},
+			{
+					"month": 46,
+					"third": 46.5,
+					"fifteenth": 47.7,
+					"median": 49.2,
+					"eightyfifth": 50.7,
+					"ninetyseventh": 51.9
+			},
+			{
+					"month": 47,
+					"third": 46.6,
+					"fifteenth": 47.8,
+					"median": 49.3,
+					"eightyfifth": 50.7,
+					"ninetyseventh": 51.9
+			},
+			{
+					"month": 48,
+					"third": 46.7,
+					"fifteenth": 47.9,
+					"median": 49.3,
+					"eightyfifth": 50.8,
+					"ninetyseventh": 52.0
+			},
+			{
+					"month": 49,
+					"third": 46.7,
+					"fifteenth": 47.9,
+					"median": 49.4,
+					"eightyfifth": 50.9,
+					"ninetyseventh": 52.1
+			},
+			{
+					"month": 50,
+					"third": 46.8,
+					"fifteenth": 48.0,
+					"median": 49.4,
+					"eightyfifth": 50.9,
+					"ninetyseventh": 52.1
+			},
+			{
+					"month": 51,
+					"third": 46.8,
+					"fifteenth": 48.0,
+					"median": 49.5,
+					"eightyfifth": 51.0,
+					"ninetyseventh": 52.2
+			},
+			{
+					"month": 52,
+					"third": 46.9,
+					"fifteenth": 48.1,
+					"median": 49.5,
+					"eightyfifth": 51.0,
+					"ninetyseventh": 52.2
+			},
+			{
+					"month": 53,
+					"third": 46.9,
+					"fifteenth": 48.1,
+					"median": 49.6,
+					"eightyfifth": 51.1,
+					"ninetyseventh": 52.3
+			},
+			{
+					"month": 54,
+					"third": 47.0,
+					"fifteenth": 48.2,
+					"median": 49.6,
+					"eightyfifth": 51.1,
+					"ninetyseventh": 52.3
+			},
+			{
+					"month": 55,
+					"third": 47.0,
+					"fifteenth": 48.2,
+					"median": 49.7,
+					"eightyfifth": 51.2,
+					"ninetyseventh": 52.4
+			},
+			{
+					"month": 56,
+					"third": 47.1,
+					"fifteenth": 48.3,
+					"median": 49.7,
+					"eightyfifth": 51.2,
+					"ninetyseventh": 52.4
+			},
+			{
+					"month": 57,
+					"third": 47.1,
+					"fifteenth": 48.3,
+					"median": 49.8,
+					"eightyfifth": 51.3,
+					"ninetyseventh": 52.5
+			},
+			{
+					"month": 58,
+					"third": 47.2,
+					"fifteenth": 48.4,
+					"median": 49.8,
+					"eightyfifth": 51.3,
+					"ninetyseventh": 52.5
+			},
+			{
+					"month": 59,
+					"third": 47.2,
+					"fifteenth": 48.4,
+					"median": 49.9,
+					"eightyfifth": 51.4,
+					"ninetyseventh": 52.6
+			},
+			{
+					"month": 60,
+					"third": 47.2,
+					"fifteenth": 48.4,
+					"median": 49.9,
+					"eightyfifth": 51.4,
+					"ninetyseventh": 52.6
+			}
+	]
+}

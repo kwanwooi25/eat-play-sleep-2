@@ -1,0 +1,18 @@
+.custom-dialog {
+  @extend %flex-center-column;
+
+  &__title {
+    width: 100%;
+
+    h3 {
+      padding: $space--md;
+      padding-bottom: $space--xs;
+    }
+  }
+
+  &__message {
+    p {
+      padding: $space--md;
+    }
+  }
+}

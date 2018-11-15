@@ -1,0 +1,78 @@
+.activity-summary {
+  width: 100%;
+
+  &__date-display {
+    @extend %flex-center-row;
+    justify-content: space-between;
+    padding: $space--sm;
+
+    &__button {
+      @extend %button--primary;
+      width: 3rem;
+
+      &:disabled {
+        background: $color-grey;
+        cursor: default;
+      }
+    }
+  }
+
+  &__info {
+    @extend %box;
+    width: 95%;
+    margin: 0 auto;
+
+    &__item {
+      @extend %flex-center-row;
+      width: 100%;
+      margin-bottom: $space--sm;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &__icon {
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: $space--xs;
+        background: $color-bottle;
+        border-radius: 100%;
+      }
+
+      &.breast .activity-summary__info__item__icon {
+        background: $color-breast;
+      }
+      &.bottle .activity-summary__info__item__icon {
+        background: $color-bottle;
+      }
+      &.babyfood .activity-summary__info__item__icon {
+        background: $color-babyfood;
+      }
+      &.pump .activity-summary__info__item__icon {
+        background: $color-pump;
+      }
+      &.diaper .activity-summary__info__item__icon {
+        background: $color-diaper;
+      }
+      &.sleep .activity-summary__info__item__icon {
+        background: $color-sleep;
+      }
+
+      &__details {
+        flex: 1;
+        margin-left: $space--sm;
+        font-size: $font-size--small;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 3fr 2fr 3fr;
+
+        &__duration,
+        &__amount,
+        &__peepoo {
+          justify-self: right;
+          padding-right: $space--sm;
+        }
+      }
+    }
+  }
+}

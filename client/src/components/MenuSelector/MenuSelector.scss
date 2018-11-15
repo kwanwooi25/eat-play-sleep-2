@@ -1,0 +1,6 @@
+.menu-selector {
+  &__button {
+    @extend %button;
+    font-size: $font-size--small;
+  }
+}

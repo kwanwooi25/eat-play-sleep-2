@@ -1,0 +1,90 @@
+.time-input {
+  @extend %flex-center-row;
+  justify-content: space-between;
+  border-top: 2px solid $color-primary;
+  border-bottom: 2px solid $color-primary;
+  overflow: hidden;
+
+  &-container {
+    margin-bottom: $space--sm;
+
+    &.label-align--row {
+      @extend %flex-center-row;
+
+      label {
+        font-size: $font-size--small;
+        margin-right: $space--sm;
+        width: 5rem;
+      }
+    }
+
+    &.label-align--column {
+      @extend %flex-center-column;
+      align-items: flex-start;
+    }
+  }
+
+  &.small &__spinner__hour,
+  &.small &__spinner__minute,
+  &.small &__spinner__second {
+    height: 3rem;
+    font-size: $font-size--large;
+    margin-left: -0.75rem;
+  }
+
+  &.small &__spinner__hour-wrapper,
+  &.small &__spinner__minute-wrapper,
+  &.small &__spinner__second-wrapper {
+    width: 3rem;
+  }
+
+  &.small &__colon {
+    margin-left: 0;
+  }
+
+  &__spinner {
+    @extend %flex-center-row;
+    align-items: center;
+
+    &__hour,
+    &__minute,
+    &__second {
+      font-size: $font-size--xlarge;
+      font-weight: $font-weight--bold;
+      height: 4rem;
+      width: 150%;
+      overflow-y: auto;
+
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      margin-left: -1rem;
+
+      scroll-snap-type: y mandatory;
+
+      &-wrapper {
+        overflow: hidden;
+        width: 4rem;
+      }
+
+      li {
+        @extend %flex-center-column;
+        height: 100%;
+        scroll-snap-align: center;
+      }
+    }
+  }
+
+  &.readonly {
+    .time-input__spinner__hour,
+    .time-input__spinner__minute,
+    .time-input__spinner__second {
+      overflow-y: hidden;
+    }
+  }
+
+  &__colon {
+    font-weight: $font-weight--bold;
+    margin-left: $space--xs;
+  }
+}

@@ -1,0 +1,17 @@
+.main-header {
+  @extend %flex-center-row;
+  background: $color-primary;
+  color: white;
+  width: 100%;
+  padding: $space--sm;
+
+  &__button {
+    @extend %button--primary;
+  }
+}
+
+.baby-info {
+  flex: 1;
+  margin: 0;
+  padding-left: $space--sm;
+}

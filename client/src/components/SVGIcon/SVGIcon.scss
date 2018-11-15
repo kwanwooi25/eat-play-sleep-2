@@ -1,0 +1,132 @@
+.icon-google,
+.icon-facebook,
+.icon-kakao,
+.icon-naver {
+  &:hover {
+    .bg {
+      opacity: 0.8;
+    }
+  }
+}
+
+.icon-breast,
+.icon-breast_left,
+.icon-breast_right,
+.icon-breast_milk {
+  .drop {
+    opacity: 0;
+  }
+
+  &.active .drop {
+    opacity: 0.8;
+    animation: 1.5s breast-drop infinite;
+  }
+}
+
+.icon-pump,
+.icon-pump_left,
+.icon-pump_right {
+  .milk,
+  .drop {
+    opacity: 0;
+  }
+
+  &.active {
+    .drop {
+      opacity: 0.8;
+      animation: 1.5s pump-drop infinite;
+    }
+    .milk {
+      opacity: 0.6;
+    }
+  }
+}
+
+.icon-bottle,
+.icon-formula_milk,
+.icon-feed {
+  .milk,
+  .drop {
+    opacity: 0;
+  }
+
+  &.active {
+    .bottle {
+      transform: scale(0.85) rotate(120deg);
+      transform-origin: center center;
+    }
+    .milk {
+      opacity: 0.6;
+    }
+    .drop {
+      opacity: 0.8;
+      animation: 1.5s bottle-drop infinite;
+    }
+  }
+}
+
+.icon-sleep {
+  &.active {
+    .mouth {
+      animation: 1.5s mouth-move infinite;
+      transform-origin: center;
+    }
+
+    .zmark-small {
+      animation: 1.5s zmark-move infinite;
+    }
+    .zmark {
+      animation: 1.5s zmark-move infinite;
+      animation-delay: 0.1s;
+    }
+  }
+}
+
+@keyframes breast-drop {
+  0% {
+    transform: translateY(-20%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(40%);
+  }
+}
+
+@keyframes pump-drop {
+  0% {
+    transform: translateY(-10%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(40%);
+  }
+}
+
+@keyframes bottle-drop {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(40%);
+  }
+}
+
+@keyframes mouth-move {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5) translateX(1%) translateY(-8%);
+  }
+}
+
+@keyframes zmark-move {
+  0% {
+    transform: translateX(-10%) translateY(10%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(15%) translateY(-15%);
+  }
+}

@@ -1,0 +1,12 @@
+.tab-summary {
+  @extend %box;
+  @extend %flex-center-column;
+  flex: 1;
+  font-size: $font-size--small;
+  
+  &__item {
+    @extend %flex-center-row;
+    width: 100%;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,25 @@
+.custom-select {
+  margin-bottom: $space--sm;
+
+  &.label-align--column {
+    @extend %flex-center-column;
+
+    label {
+      align-self: flex-start;
+    }
+  }
+
+  &.label-align--row {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-gap: $space--sm;
+    align-items: center;
+  }
+  
+  button {
+    @extend %button;
+    border: 1px solid $color-primary;
+    font-size: $font-size--medium;
+    width: 100%;
+  }
+}

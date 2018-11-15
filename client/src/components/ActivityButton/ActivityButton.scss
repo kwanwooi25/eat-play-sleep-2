@@ -1,0 +1,109 @@
+.activity-button {
+  @extend %flex-center-column;
+  border-radius: $border-radius;
+  overflow: hidden;
+  max-height: 8rem;
+
+  &__buttons {
+    @extend %flex-center-row;
+
+    button {
+      @extend %button;
+      border-radius: 0;
+    }
+
+    .breast_left, .breast_right { background: $color-breast }
+    .pump_left, .pump_right { background: $color-pump }
+    .bottle { background: $color-bottle }
+    .babyfood { background: $color-babyfood }
+    .diaper { background: $color-diaper }
+    .sleep { background: $color-sleep }
+    .growth { background: $color-growth }
+    .breast_left:hover, .breast_right:hover { background: lighten($color-breast, 20%) }
+    .pump_left:hover, .pump_right:hover { background: lighten($color-pump, 20%) }
+    .bottle:hover { background: lighten($color-bottle, 20%) }
+    .babyfood:hover { background: lighten($color-babyfood, 20%) }
+    .diaper:hover { background: lighten($color-diaper, 20%) }
+    .sleep:hover { background: lighten($color-sleep, 20%) }
+    .growth:hover { background: lighten($color-growth, 20%) }
+  }
+
+  &__last {
+    font-size: $font-size--xsmall;
+    padding: $space--xs;
+    background: $color-primary--xxlight;
+    width: 100%;
+    text-align: center;
+  }
+
+  &.two-sided {
+    grid-column: 1/3;
+
+    .activity-button__buttons {
+      button {
+        &:first-child {
+          margin-right: 2px;
+        }
+      }
+    }
+  }
+
+  &.breast {
+    background: lighten($color-breast, 40%);
+    border: 2px solid $color-breast;
+  }
+  &.pump {
+    background: lighten($color-pump, 40%);
+    border: 2px solid $color-pump;
+  }
+  &.bottle {
+    background: lighten($color-bottle, 40%);
+    border: 2px solid $color-bottle;
+  }
+  &.babyfood {
+    background: lighten($color-babyfood, 40%);
+    border: 2px solid $color-babyfood;
+  }
+  &.diaper {
+    background: lighten($color-diaper, 40%);
+    border: 2px solid $color-diaper;
+  }
+  &.sleep {
+    background: lighten($color-sleep, 40%);
+    border: 2px solid $color-sleep;
+  }
+  &.growth {
+    background: lighten($color-growth, 40%);
+    border: 2px solid $color-growth;
+  }
+
+  &.breast &__last {
+    background: lighten($color-breast, 40%);
+    color: darken($color-breast, 40%);
+  }
+  &.pump &__last {
+    background: lighten($color-pump, 40%);
+    color: darken($color-pump, 40%);
+  }
+  &.bottle &__last {
+    background: lighten($color-bottle, 40%);
+    color: darken($color-bottle, 40%);
+  }
+  &.babyfood &__last {
+    background: lighten($color-babyfood, 40%);
+    color: darken($color-babyfood, 40%);
+  }
+  &.diaper &__last {
+    background: lighten($color-diaper, 40%);
+    color: darken($color-diaper, 40%);
+  }
+  &.sleep &__last {
+    background: lighten($color-sleep, 40%);
+    color: darken($color-sleep, 40%);
+  }
+  &.growth &__last {
+    background: lighten($color-growth, 40%);
+    color: darken($color-growth, 40%);
+  }
+  
+}

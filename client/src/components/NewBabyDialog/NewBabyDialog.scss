@@ -1,0 +1,13 @@
+.new-baby-dialog {
+  @extend %flex-center-column;
+  width: 100%;
+
+  &__title {
+    width: 100%;
+
+    h3 {
+      padding: $space--md;
+      padding-bottom: $space--xs;
+    }
+  }
+}

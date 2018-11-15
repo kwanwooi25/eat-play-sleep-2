@@ -1,0 +1,6 @@
+.home {
+  @extend %flex-center-column;
+  justify-content: flex-start;
+  padding: $space--sm;
+  height: 100%;
+}

@@ -1,0 +1,20 @@
+.dialog-button-group {
+  @extend %flex-center-row;
+  width: 100%;
+
+  &__button--cancel,
+  &__button--confirm {
+    @extend %button--primary;
+    flex: 1;
+    border-radius: 0;
+  }
+
+  &__button--cancel {
+    background: $color-grey--light;
+    color: $color-grey--xdark;
+  
+    &:hover {
+      background: $color-grey;
+    }
+  }
+}

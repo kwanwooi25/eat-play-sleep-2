@@ -1,0 +1,40 @@
+.activity-timer {
+  @extend %flex-center-row;
+  width: 100%;
+
+  &__timer {
+    @extend %flex-center-column;
+    font-size: $font-size--xlarge;
+    font-weight: $font-weight--bold;
+    margin: $space--sm;
+    padding: $space--sm;
+    border: 3px solid $color-primary;
+    border-radius: 1rem;
+    width: 10rem;
+
+    &.paused span {
+      animation: 1.5s blink infinite;
+    }
+  }
+
+  &__controls {
+    @extend %flex-center-row;
+    padding: $space--md 0;
+
+    &__button {
+      @extend %flex-center-column;
+      border-radius: 100%;
+      border: 3px solid $color-primary;
+      outline: none;
+      color: $color-primary;
+      background: white;
+      width: 4rem;
+      height: 4rem;
+      margin: $space--sm;
+
+      &:hover {
+        background: $color-primary--xlight;
+      }
+    }
+  }
+}

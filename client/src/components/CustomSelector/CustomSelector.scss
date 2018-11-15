@@ -1,0 +1,139 @@
+.custom-selector {
+  margin-bottom: $space--sm;
+
+  &.label-align--column {
+    @extend %flex-center-column;
+
+    label {
+      align-self: flex-start;
+    }
+  }
+
+  &.label-align--row {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-gap: $space--sm;
+    align-items: center;
+  }
+
+  &__options {
+    &__option {
+      display: inline-block;
+      margin: $space--xs;
+      width: 4rem;
+      height: 4rem;
+      position: relative;
+      cursor: pointer;
+
+      input {
+        display: none;
+
+        &:hover + .custom-selector__options__option__bg {
+          background: $color-primary--xlight;
+        }
+
+        &:checked + .custom-selector__options__option__bg {
+          background: $color-primary;
+        }
+
+        &.breast:hover + .custom-selector__options__option__bg {
+          background: lighten($color-breast, 20%);
+        }
+        &.breast:checked + .custom-selector__options__option__bg {
+          background: $color-breast;
+        }
+
+        &.bottle:hover + .custom-selector__options__option__bg {
+          background: lighten($color-bottle, 20%);
+        }
+        &.bottle:checked + .custom-selector__options__option__bg {
+          background: $color-bottle;
+        }
+
+        &.pump:hover + .custom-selector__options__option__bg {
+          background: lighten($color-pump, 20%);
+        }
+        &.pump:checked + .custom-selector__options__option__bg {
+          background: $color-pump;
+        }
+
+        &.babyfood:hover + .custom-selector__options__option__bg {
+          background: lighten($color-babyfood, 20%);
+        }
+        &.babyfood:checked + .custom-selector__options__option__bg {
+          background: $color-babyfood;
+        }
+
+        &.diaper:hover + .custom-selector__options__option__bg {
+          background: lighten($color-diaper, 20%);
+        }
+        &.diaper:checked + .custom-selector__options__option__bg {
+          background: $color-diaper;
+        }
+
+        &.sleep:hover + .custom-selector__options__option__bg {
+          background: lighten($color-sleep, 20%);
+        }
+        &.sleep:checked + .custom-selector__options__option__bg {
+          background: $color-sleep;
+        }
+
+        &.growth:hover + .custom-selector__options__option__bg {
+          background: lighten($color-growth, 20%);
+        }
+        &.growth:checked + .custom-selector__options__option__bg {
+          background: $color-growth;
+        }
+
+        &:checked ~ .custom-selector__options__option__icon {
+          height: 50%;
+          width: 50%;
+          margin: 10% 25%;
+        }
+
+        &:checked ~ .custom-selector__options__option__title {
+          height: auto;
+          margin-bottom: 15%;
+        }
+      }
+
+      &__bg {
+        position: absolute;
+        background: $color-grey--light;
+        border-radius: 100%;
+        width: 100%;
+        height: 100%;
+      }
+      
+      &__icon {
+        position: absolute;
+        margin: 10%;
+        width: 80%;
+        height: 80%;
+        z-index: 2;
+      }
+      
+      &__title {
+        position: absolute;
+        bottom: 0;
+        font-size: $font-size--xsmall;
+        width: 100%;
+        height: 0;
+        color: white;
+        overflow: hidden;
+        z-index: 2;
+        text-align: center;
+      }
+      
+      &.small {
+        width: 3rem;
+        height: 3rem;
+    
+        .custom-selector__options__option__title {
+          font-size: $font-size--xsmall;
+        }
+      }
+
+    }
+  }
+}

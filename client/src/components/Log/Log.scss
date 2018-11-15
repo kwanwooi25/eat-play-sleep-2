@@ -1,0 +1,90 @@
+.log {
+  &__icon { grid-area: icon }
+  &__content { grid-area: content }
+  &__buttons { grid-area: buttons }
+  &__details { grid-area: details }
+}
+
+.log {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "icon content buttons"
+    ". details .";
+  grid-column-gap: $space--sm;
+  grid-row-gap: 0;
+
+  background: white;
+  border: 1px solid $color-grey--light;
+  border-radius: $border-radius;
+  padding: $space--sm;
+  margin-bottom: $space--sm;
+
+  &:hover {
+    border-color: $color-primary--light;
+    cursor: pointer;
+  }
+
+  &__icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+
+    &.breast { background: $color-breast }
+    &.pump { background: $color-pump }
+    &.bottle { background: $color-bottle }
+    &.babyfood { background: $color-babyfood }
+    &.diaper { background: $color-diaper }
+    &.sleep { background: $color-sleep }
+    &.growth { background: $color-growth }
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: $space--xs;
+
+    &__title {
+      font-size: $font-size--medium;
+      font-weight: $font-weight--bold;
+    }
+
+    &__info {
+      font-size: $font-size--small;
+      justify-self: end;
+    }
+
+    &__time {
+      grid-column: 1/3;
+      font-size: $font-size--xsmall;
+    }
+  }
+
+  &__buttons {
+    @extend %flex-center-column;
+    border-left: 1px dashed $color-primary--xlight;
+    padding-left: $space--sm;
+
+    button {
+      @extend %button;
+      border-radius: 50%;
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+
+  &__details {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s max-height;
+
+    &.expanded {
+      max-height: 100vh;
+    }
+  }
+
+  &__menu__icon {
+    color: $color-primary;
+  }
+}

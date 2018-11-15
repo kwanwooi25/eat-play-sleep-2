@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,700|Material+Icons');
+
+// font weights
+$font-weight--light: 300;
+$font-weight--regular: 400;
+$font-weight--bold: 700;
+
+// font size
+$font-size--xsmall: 0.7rem;
+$font-size--small: 1rem;
+$font-size--medium: 1.2rem;
+$font-size--large: 1.5rem;
+$font-size--xlarge: 2rem;
+
+// base font
+$base-font-family: 'Noto Sans KR', sans-serif;
+$base-font-weight: $font-weight--regular;
+$base-font-size: $font-size--medium;
+$base-line-height: 1.5;
+
+// spacing
+$space--xs: 0.25rem;
+$space--sm: 0.75rem;
+$space--md: 1.25rem;
+$space--lg: 2rem;
+$space--xl: 2.5rem;
+
+// border-radius
+$border-radius: 0.25rem;
+
+// breakpoints
+$break--sm: 320px;
+$break--md: 768px;
+$break--lg: 1024px;
+
+// colors
+$color-red--50: #FFEBEE;
+$color-red--100: #FFCDD2;
+$color-red--200: #EF9A9A;
+$color-red--300: #E57373;
+$color-red--400: #EF5350;
+$color-red--500: #F44336;
+$color-red--600: #E53935;
+$color-red--700: #D32F2F;
+$color-red--800: #C62828;
+$color-red--900: #B71C1C;
+
+$color-deepPurple--50: #EDE7F6;
+$color-deepPurple--100: #D1C4E9;
+$color-deepPurple--200: #B39DDB;
+$color-deepPurple--300: #9575CD;
+$color-deepPurple--400: #7E57C2;
+$color-deepPurple--500: #673AB7;
+$color-deepPurple--600: #5E35B1;
+$color-deepPurple--700: #512DA8;
+$color-deepPurple--800: #4527A0;
+$color-deepPurple--900: #311B92;
+
+$color-indigo--50: #E8EAF6;
+$color-indigo--100: #C5CAE9;
+$color-indigo--200: #9FA8DA;
+$color-indigo--300: #7986CB;
+$color-indigo--400: #5C6BC0;
+$color-indigo--500: #3F51B5;
+$color-indigo--600: #3949AB;
+$color-indigo--700: #303F9F;
+$color-indigo--800: #283593;
+$color-indigo--900: #1A237E;
+
+$color-teal--50: #E0F2F1;
+$color-teal--100: #B2DFDB;
+$color-teal--200: #80CBC4;
+$color-teal--300: #4DB6AC;
+$color-teal--400: #26A69A;
+$color-teal--500: #009688;
+$color-teal--600: #00897B;
+$color-teal--700: #00796B;
+$color-teal--800: #00695C;
+$color-teal--900: #004D40;
+
+$color-green--50: #E8F5E9;
+$color-green--100: #C8E6C9;
+$color-green--200: #A5D6A7;
+$color-green--300: #81C784;
+$color-green--400: #66BB6A;
+$color-green--500: #4CAF50;
+$color-green--600: #43A047;
+$color-green--700: #388E3C;
+$color-green--800: #2E7D32;
+$color-green--900: #1B5E20;
+
+$color-lime--50: #F9FBE7;
+$color-lime--100: #F0F4C3;
+$color-lime--200: #E6EE9C;
+$color-lime--300: #DCE775;
+$color-lime--400: #D4E157;
+$color-lime--500: #CDDC39;
+$color-lime--600: #C0CA33;
+$color-lime--700: #AFB42B;
+$color-lime--800: #9E9D24;
+$color-lime--900: #827717;
+
+$color-yellow--50: #FFFDE7;
+$color-yellow--100: #FFF9C4;
+$color-yellow--200: #FFF59D;
+$color-yellow--300: #FFF176;
+$color-yellow--400: #FFEE58;
+$color-yellow--500: #FFEB3B;
+$color-yellow--600: #FDD835;
+$color-yellow--700: #FBC02D;
+$color-yellow--800: #F9A825;
+$color-yellow--900: #F57F17;
+
+$color-amber--50: #FFF8E1;
+$color-amber--100: #FFECB3;
+$color-amber--200: #FFE082;
+$color-amber--300: #FFD54F;
+$color-amber--400: #FFCA28;
+$color-amber--500: #FFC107;
+$color-amber--600: #FFB300;
+$color-amber--700: #FFA000;
+$color-amber--800: #FF8F00;
+$color-amber--900: #FF6F00;
+
+$color-deepOrange--50: #FBE9E7;
+$color-deepOrange--100: #FFCCBC;
+$color-deepOrange--200: #FFAB91;
+$color-deepOrange--300: #FF8A65;
+$color-deepOrange--400: #FF7043;
+$color-deepOrange--500: #FF5722;
+$color-deepOrange--600: #F4511E;
+$color-deepOrange--700: #E64A19;
+$color-deepOrange--800: #D84315;
+$color-deepOrange--900: #BF360C;
+
+$color-grey--50: #FAFAFA;
+$color-grey--100: #F5F5F5;
+$color-grey--200: #EEEEEE;
+$color-grey--300: #E0E0E0;
+$color-grey--400: #BDBDBD;
+$color-grey--500: #9E9E9E;
+$color-grey--600: #757575;
+$color-grey--700: #616161;
+$color-grey--800: #424242;
+$color-grey--900: #212121;
+
+$color-brown--50: #EFEBE9;
+$color-brown--100: #D7CCC8;
+$color-brown--200: #BCAAA4;
+$color-brown--300: #A1887F;
+$color-brown--400: #8D6E63;
+$color-brown--500: #795548;
+$color-brown--600: #6D4C41;
+$color-brown--700: #5D4037;
+$color-brown--800: #4E342E;
+$color-brown--900: #3E2723;
+
+$color-primary--xxlight: $color-indigo--50;
+$color-primary--xlight: $color-indigo--100;
+$color-primary--light: $color-indigo--300;
+$color-primary: $color-indigo--500;
+$color-primary--dark: $color-indigo--700;
+$color-primary--xdark: $color-indigo--900;
+
+$color-primary--text: $color-primary--dark;
+$color-primary--text-contrast: $color-primary--xxlight;
+
+$color-grey--xxlight: $color-grey--50;
+$color-grey--xlight: $color-grey--100;
+$color-grey--light: $color-grey--300;
+$color-grey: $color-grey--500;
+$color-grey--dark: $color-grey--700;
+$color-grey--xdark: $color-grey--900;
+
+$color-success--xxlight: $color-green--50;
+$color-success--xlight: $color-green--100;
+$color-success--light: $color-green--300;
+$color-success: $color-green--500;
+$color-success--dark: $color-green--700;
+$color-success--xdark: $color-green--900;
+
+$color-error--xxlight: $color-red--50;
+$color-error--xlight: $color-red--100;
+$color-error--light: $color-red--300;
+$color-error: $color-red--500;
+$color-error--dark: $color-red--700;
+$color-error--xdark: $color-red--900;
+
+$color-breast: $color-amber--500;
+
+$color-pump: $color-lime--500;
+
+$color-bottle: $color-indigo--500;
+
+$color-babyfood: $color-deepOrange--500;
+
+$color-diaper: $color-brown--500;
+
+$color-sleep: $color-grey--500;
+
+$color-growth: $color-deepPurple--500;

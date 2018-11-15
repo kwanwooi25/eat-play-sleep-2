@@ -1,0 +1,13 @@
+.growth-chart {
+  &__item {
+    border-bottom: 1px dashed $color-primary--xlight;
+    padding-bottom: $space--sm;
+    margin-bottom: $space--sm;
+
+    &:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+  }
+}

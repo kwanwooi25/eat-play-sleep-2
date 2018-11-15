@@ -1,0 +1,81 @@
+.number-input {
+  @extend %flex-center-row;
+  justify-content: space-between;
+  border-top: 2px solid $color-primary;
+  border-bottom: 2px solid $color-primary;
+  overflow: hidden;
+  min-width: 15rem;
+
+  &-container {
+    margin-bottom: $space--sm;
+
+    &.label-align--row {
+      @extend %flex-center-row;
+
+      label {
+        font-size: $font-size--small;
+        margin-right: $space--sm;
+        width: 5rem;
+      }
+    }
+
+    &.label-align--column {
+      @extend %flex-center-column;
+      align-items: flex-start;
+    }
+  }
+
+  &__spinner {
+    @extend %flex-center-row;
+    align-items: baseline;
+
+    &__hundred,
+    &__ten,
+    &__one,
+    &__decimal {
+      font-size: $font-size--xlarge;
+      font-weight: $font-weight--bold;
+      height: 4rem;
+      width: 150%;
+      overflow-y: auto;
+
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      scroll-snap-type: y mandatory;
+
+      &-wrapper {
+        overflow: hidden;
+        width: 3rem;
+      }
+
+      li {
+        @extend %flex-center-column;
+        height: 100%;
+        scroll-snap-align: center;
+      }
+    }
+
+    &__decimal {
+      font-size: $font-size--medium;
+    }
+  }
+
+  &__point {
+    font-weight: $font-weight--bold;
+    margin-left: $space--sm;
+    margin-right: -$space--sm;
+  }
+
+  &__unit {
+    @extend %flex-center-column;
+    width: 3rem;
+    height: 3rem;
+    background: $color-primary--xxlight;
+    border-radius: 100%;
+    font-size: $font-size--medium;
+    padding: $space--sm;
+    margin: $space--xs;
+  }
+}
