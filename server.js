@@ -8,6 +8,7 @@ const passport = require('passport');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const session = require('express-session');
+const path = require('path');
 
 /** Initalize App */
 const app = express();
@@ -32,13 +33,21 @@ app.use(session({
 require('./services/passport')(app, passport);
 
 /** Routes */
-app.get('/', (req, res) => {
-  res.send("This is EatPlaySleep Server");
-});
+// app.get('/', (req, res) => {
+//   res.send("This is EatPlaySleep Server");
+// });
 require('./routes/auth')(app);
 require('./routes/user')(app);
 require('./routes/baby')(app);
 require('./routes/activity')(app);
+
+/** Frontend for production */
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static('client/build'));
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+  });
+}
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server is up on port ${PORT}`));
