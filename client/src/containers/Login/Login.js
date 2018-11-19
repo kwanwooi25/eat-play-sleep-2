@@ -36,7 +36,7 @@ class Login extends Component {
       return (
         <a
           key={name}
-          href={`${API_HOST}/auth/${name}`}
+          href={`/auth/${name}`}
           className="social-login__button"
         >
           <SVGIcon name={name} />
